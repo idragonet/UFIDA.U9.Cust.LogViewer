@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project id="a897ff52-ab97-428d-bfbd-bc8dbca386e9" name="UFIDA.U9.Cust.LogViewer" displayName="UFIDA.U9.Cust.LogViewer" description="" help="" type="UI" assemblyName="UFIDA.U9.Cust.LogViewer" mapProject="" resourceName="" projectVersion="Normal">
+  <SourceControl />
+  <ItemGroup>
+    <Item id="030a2869-aea2-4d08-a1dd-cd6669cba73d" name="LogViewerUI.ubfuim" displayName="LogViewerUI.ubfuim" description="" help="" include="LogViewerUI.ubfuim" type="" />
+    <Item id="e7a6bb0a-61a0-4967-9fed-fe416a9a6b15" name="LogViewerForm.ubfform" displayName="LogViewerForm.ubfform" description="" help="" include="LogViewerForm.ubfform" type="" />
+  </ItemGroup>
+</Project>

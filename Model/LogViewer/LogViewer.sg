@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ServiceGroup>
+  <ServiceGroupInfo id="79793694-ed94-476b-841d-b320d77c2c17" name="LogViewer" displayName="LogViewer" description="" help="" fullPath="E:\UFIDA.U9.Cust.LogViewer\Model\LogViewer\LogViewer.sg" applicationID="" />
+  <AssemblyGroup>
+    <Assembly ID="a897ff52-ab97-428d-bfbd-bc8dbca386e9" name="UFIDA.U9.Cust.LogViewer" type="UI" path="" />
+  </AssemblyGroup>
+</ServiceGroup>

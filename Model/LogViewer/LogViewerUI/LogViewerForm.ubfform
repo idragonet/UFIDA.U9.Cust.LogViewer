@@ -1,0 +1,146 @@
+<View ID="83dd816f-aec5-469e-b46f-3f94517f0c77" ChildLabelWidth="56" ChildRefWidth="20" DisplayName="系统日志查看" DisplayNameIndexStr="" DisplayNameResourceID="" DisplaySrcType="Custom" DisplaySrcUIFieldID="" DisplaySrcUIViewID="" GridBottomMargin="5" GridColumnCount="2" GridColumnSpace="24" GridLeftMargin="0" GridRightMargin="0" GridRowCount="2" GridRowSpace="10" GridTopMargin="0" Height="528" IsAutoSize="True" IsMainForm="True" LayoutType="GridBag" Name="LogViewerForm" Namespace="LogViewerUI" TabStop="False" TemplateCode="UI_LeftTree_RightGrid" TemplateType="CustomTemplate" UIModelID="50fc507b-11b9-49a0-becf-8af5f58d7665" URI=".UI_左树右表WebPart" ViewID="4983" Width="1000" X="10" Y="10">
+  <Columns>
+    <Column Fixed="False" Name="Column0" Type="Value" Width="992" />
+    <Column Fixed="True" Name="Column1" Width="1" />
+  </Columns>
+  <Rows>
+    <Row Fixed="True" Height="40" Name="Row0" />
+    <Row Fixed="False" Height="470" Name="Row1" />
+  </Rows>
+  <Providers />
+  <InParameters />
+  <Card ID="efa537af-6300-46a9-bd87-536b3c0323a0" ChildLabelWidth="60" ChildRefWidth="20" GridBottomMargin="0" GridColumnCount="2" GridColumnSpace="0" GridHeight="1" GridLeftMargin="10" GridRightMargin="10" GridRowCount="2" GridRowSpace="5" GridTopMargin="0" GridWidth="1" GridX="0" GridY="1" Height="470" LayoutType="GridBag" Name="Card3" TabIndex="2" TabStop="False" Width="992" X="0" Y="50">
+    <Columns>
+      <Column Fixed="False" Name="Column5" Type="Value" Width="650" />
+      <Column Fixed="True" Name="Column8" Type="Spacing" Width="9" />
+    </Columns>
+    <Rows>
+      <Row Fixed="True" Height="460" Name="Row0" />
+      <Row Fixed="False" Height="1" Name="Row1" />
+    </Rows>
+    <TabControl ID="bad0cb2f-4b3e-4f88-92a9-4a3fd0e67ea0" GridHeight="2" GridWidth="1" GridX="0" GridY="0" Height="466" Name="TabControl0" TabIndex="0" TabStop="True" Width="650" X="10" Y="0">
+      <TabPage ID="8d246116-8447-404e-b0ea-771f661eddc7" ChildLabelWidth="60" ChildRefWidth="20" DisplayName="近7天日志" DisplayNameIndexStr="" DisplayNameResourceID="" DisplaySrcType="Custom" DisplaySrcUIFieldID="" DisplaySrcUIViewID="" GridBottomMargin="10" GridColumnCount="2" GridColumnSpace="0" GridLeftMargin="10" GridRightMargin="10" GridRowCount="1" GridRowSpace="5" GridTopMargin="10" Height="436" Name="TabPage0" TabStop="False" Width="642" X="0" Y="0">
+        <Columns>
+          <Column Fixed="True" Name="Column0" Type="Title" Width="600" />
+          <Column Fixed="False" Name="Column1" Type="Spacing" Width="10" />
+        </Columns>
+        <Rows>
+          <Row Fixed="False" Height="416" Name="Row0" />
+        </Rows>
+        <DataGrid ID="69901f6e-1fa8-4d4e-99f0-d5c4e04763a6" AllowAddRow="False" AllowDelRow="False" AllowInsertRow="False" AutoEditModel="False" EditStatus="browse" Enabled="True" GridHeight="1" GridWidth="1" GridX="0" GridY="0" HasSum="False" Height="416" Name="DataGrid3" PageSize="-1" Paging="False" ShowEditBar="False" TabIndex="0" TabStop="True" Width="600" X="10" Y="10">
+          <Events />
+          <Header ID="d4fb54b7-a258-4b6d-9b07-fd8a8f9ccec7" Name="Header3">
+            <HeaderRow ID="9a3663a3-34cc-434c-94ea-ccd0b47607ae" Name="DefaultRow">
+              <HeaderCell ID="a63fc6d8-611b-4bed-9f35-a9c461e83ec4" ColSpan="1" Name="HeaderCell12" OwnerColName="ID1" RowSpan="1" />
+              <HeaderCell ID="9e528be2-39c8-428b-9e0c-dc27b1e878fb" ColSpan="1" Name="HeaderCell13" OwnerColName="SysVersion1" RowSpan="1" />
+              <HeaderCell ID="14535796-def7-44b5-b302-c51f0584b212" ColSpan="1" Name="HeaderCell14" OwnerColName="FileName1" RowSpan="1" />
+              <HeaderCell ID="48ebcdae-9c8b-4266-bfc0-a052b29d4f7e" ColSpan="1" Name="HeaderCell15" OwnerColName="Modified1" RowSpan="1" />
+              <HeaderCell ID="24942725-26d9-4aa6-b257-76da6cd6b5d0" ColSpan="1" Name="HeaderCell16" OwnerColName="FileSize0" RowSpan="1" />
+              <HeaderCell ID="e62d8e64-2cc8-41df-baba-88231328557e" ColSpan="1" Name="HeaderCell17" OwnerColName="IsHave0" RowSpan="1" />
+            </HeaderRow>
+          </Header>
+          <UIFilterBar Name="LocateBar" />
+          <Columns>
+            <NumberColumn ID="686903d0-e928-4929-aa29-5c61200cd0b7" DefaultValue="" DisplayFormat="" Enabled="True" Help="Key.ID" IsNull="False" IsProperty="False" IsSequence="True" Name="ID1" NPos="1" Point="0" UIFieldID="ID" UIViewID="ViewLogViewer" Visible="False">
+              <PrecisionBind Name="PrecisionBind0" />
+              <RoundRuleBind Name="RoundRuleBind0" />
+              <ValueOfRoundByValueBind Name="ValueOfRoundByValueBind0" />
+              <CurrencyType Name="CurrencyType0" />
+              <Events />
+            </NumberColumn>
+            <NumberColumn ID="558a9e88-2d81-4b3a-b115-d40926650a7d" DefaultValue="" DisplayFormat="" Enabled="True" Help="Sys.SysVersion" IsNull="False" IsProperty="False" IsSequence="False" Name="SysVersion1" NPos="2" Point="0" UIFieldID="SysVersion" UIViewID="ViewLogViewer" Visible="False">
+              <PrecisionBind Name="PrecisionBind1" />
+              <RoundRuleBind Name="RoundRuleBind1" />
+              <ValueOfRoundByValueBind Name="ValueOfRoundByValueBind1" />
+              <CurrencyType Name="CurrencyType1" />
+              <Events />
+            </NumberColumn>
+            <TextBoxColumn ID="a907b24d-80e6-4cb6-b5a0-27ce590d0c94" DefaultValue="" DisplayFormat="50" Enabled="False" Help="Misc.文件名" IsNull="True" IsProperty="False" IsSequence="False" Name="FileName1" NPos="3" Point="0" TextAlign="Left" UIFieldID="FileName" UIViewID="ViewLogViewer" Visible="True" Width="135">
+              <Events />
+            </TextBoxColumn>
+            <DatePickerColumn ID="7d3203b5-91a2-4f53-a7c2-460ba031c6c1" DefaultValue="2005-1-1 00:00:00" DisplayFormat="17" Enabled="False" Help="Misc.修改时间" IsNull="True" IsProperty="False" IsSequence="False" Name="Modified1" NPos="4" Point="0" UIFieldID="Modified" UIViewID="ViewLogViewer" Visible="True" Width="150">
+              <Events />
+            </DatePickerColumn>
+            <TextBoxColumn ID="13c3af3d-0c81-4222-91ba-f0783d281a0a" DefaultValue="" DisplayFormat="50" Enabled="True" Help="Misc.文件大小" IsNull="True" IsProperty="False" IsSequence="False" Name="FileSize0" NPos="5" Point="0" TextAlign="Left" UIFieldID="FileSize" UIViewID="ViewLogViewer" Visible="True">
+              <Events />
+            </TextBoxColumn>
+            <CheckBoxColumn ID="74566742-76fb-41d6-b52c-9f2a77d6d337" DefaultValue="" DisplayFormat="1" Enabled="True" Help="Misc.匹配" IsNull="True" IsProperty="False" IsSequence="False" Name="IsHave0" NPos="6" Point="0" UIFieldID="IsHave" UIViewID="ViewLogViewer" Visible="True" Width="85">
+              <Events />
+            </CheckBoxColumn>
+          </Columns>
+        </DataGrid>
+      </TabPage>
+      <Events />
+    </TabControl>
+  </Card>
+  <Card ID="33aaf56a-705c-4c98-b373-47c86d383002" ChildLabelWidth="60" ChildRefWidth="20" GridBottomMargin="10" GridColumnCount="17" GridColumnSpace="0" GridHeight="1" GridLeftMargin="10" GridRightMargin="10" GridRowCount="1" GridRowSpace="5" GridTopMargin="10" GridWidth="1" GridX="0" GridY="0" Height="40" Name="Card4" TabStop="False" Width="992">
+    <Columns>
+      <Column Fixed="True" Name="Column0" Type="Title" Width="100" />
+      <Column Fixed="True" Name="Column1" Type="Spacing" Width="10" />
+      <Column Fixed="True" Name="Column2" Width="100" />
+      <Column Fixed="True" Name="Column3" Type="Spacing" Width="10" />
+      <Column Fixed="True" Name="Column4" Type="Title" Width="100" />
+      <Column Fixed="True" Name="Column5" Type="Spacing" Width="10" />
+      <Column Fixed="True" Name="Column6" Width="80" />
+      <Column Fixed="True" Name="Column7" Type="Spacing" Width="10" />
+      <Column Fixed="True" Name="Column8" Type="Title" Width="80" />
+      <Column Fixed="True" Name="Column9" Type="Spacing" Width="10" />
+      <Column Fixed="True" Name="Column10" Width="80" />
+      <Column Fixed="False" Name="Column11" Width="1" />
+      <Column Fixed="True" Name="Column12" Width="100" />
+      <Column Fixed="True" Name="Column13" Width="10" />
+      <Column Fixed="True" Name="Column14" Width="100" />
+      <Column Fixed="True" Name="Column15" Width="10" />
+      <Column Fixed="True" Name="Column16" Width="100" />
+    </Columns>
+    <Rows>
+      <Row Fixed="False" Height="20" Name="Row0" />
+    </Rows>
+    <Button ID="b2a157d3-67e6-40f6-bd93-9725d86e07cf" AccessKey="" DisplayName="搜索" DisplayNameIndexStr="" DisplayNameResourceID="" DisplaySrcType="Custom" DisplaySrcUIFieldID="" DisplaySrcUIViewID="" GridHeight="1" GridWidth="1" GridX="8" GridY="0" Height="20" Name="Button_serach" TabIndex="2" TabStop="True" Width="80" X="430" Y="10">
+      <Events>
+        <Event EnableEvent="True" EventType="PostBack" IsDataBinding="True" IsDataCollect="True" Name="Click" Parameter="" Template="" />
+      </Events>
+    </Button>
+    <Button ID="6890ccab-9cdb-4431-ba10-b89918a325d4" AccessKey="" DisplayName="下载" DisplayNameIndexStr="" DisplayNameResourceID="" DisplaySrcType="Custom" DisplaySrcUIFieldID="" DisplaySrcUIViewID="" GridHeight="1" GridWidth="1" GridX="10" GridY="0" Height="20" IsSubmit="True" Name="Button_Down" TabIndex="3" TabStop="True" Width="80" X="520" Y="10">
+      <Events>
+        <Event EnableEvent="True" EventType="PostBack" IsDataBinding="True" IsDataCollect="True" Name="Click" Parameter="" Template="" />
+      </Events>
+    </Button>
+    <Label ID="5c9e1332-26e1-483d-860e-c573ef206000" Enabled="True" GridHeight="1" GridWidth="1" GridX="0" GridY="0" Height="20" IsNull="True" IsSequence="False" Name="lblSearchKey261" RelationControl="SearchKey261" TabIndex="4" TabStop="True" TitleAlign="Right" TitleLocation="Left" UIFieldID="" UIViewID="" Visible="True" Width="100" X="10" Y="10">
+      <Events />
+      <RelationControls />
+      <Events />
+    </Label>
+    <TextBox ID="77ceafd0-7f06-4f4d-b8dd-e7b0a904ee48" DisplayFormat="50" Enabled="True" GridHeight="1" GridWidth="5" GridX="2" GridY="0" Height="20" IsNull="True" IsProperty="False" IsSequence="False" MultiLine="False" Name="SearchKey261" RelationControl="lblSearchKey261" TabIndex="5" TabStop="True" TextAlign="Left" TitleAlign="Left" TitleLocation="Left" UIFieldID="SearchKey" UIViewID="ViewSearch" Visible="True" Width="300" X="120" Y="10">
+      <Events />
+      <RelationControls />
+    </TextBox>
+    <Label ID="e74ffb49-e9c4-4a9a-a8a0-9cbe8685b5d0" Enabled="True" GridHeight="1" GridWidth="1" GridX="0" GridY="0" Height="20" IsNull="True" IsSequence="False" Name="lblID95" RelationControl="ID95" TabIndex="6" TabStop="True" TitleAlign="Right" TitleLocation="Left" UIFieldID="" UIViewID="" Visible="False" Width="100" X="606" Y="10">
+      <Events />
+      <RelationControls />
+      <Events />
+    </Label>
+    <NumberControl ID="22c20090-f65f-4ee2-ba3b-1e086a623642" Enabled="True" GridHeight="1" GridWidth="1" GridX="0" GridY="0" Height="20" IsNull="False" IsProperty="False" IsSequence="True" MultiLine="False" Name="ID95" RelationControl="lblID95" TabIndex="7" TabStop="True" TextAlign="Right" TitleAlign="Left" TitleLocation="Left" UIFieldID="ID" UIViewID="ViewSearch" Visible="False" Width="100" X="806" Y="10">
+      <Events />
+      <RelationControls />
+      <PrecisionBind Name="PrecisionBind2" />
+      <RoundRuleBind Name="RoundRuleBind2" />
+      <ValueOfRoundByValueBind Name="ValueOfRoundByValueBind2" />
+      <CurrencyType Name="CurrencyType2" />
+    </NumberControl>
+    <Label ID="20c3a108-1725-4ebf-86c9-6249c9b6c840" Enabled="True" GridHeight="1" GridWidth="1" GridX="0" GridY="0" Height="20" IsNull="True" IsSequence="False" Name="lblSysVersion48" RelationControl="SysVersion48" TabIndex="8" TabStop="True" TitleAlign="Right" TitleLocation="Left" UIFieldID="" UIViewID="" Visible="False" Width="100" X="606" Y="10">
+      <Events />
+      <RelationControls />
+      <Events />
+    </Label>
+    <NumberControl ID="2bb1354b-fcce-4b41-b4a9-02a3f4bc6d5b" Enabled="True" GridHeight="1" GridWidth="1" GridX="0" GridY="0" Height="20" IsNull="False" IsProperty="False" IsSequence="False" MultiLine="False" Name="SysVersion48" RelationControl="lblSysVersion48" TabIndex="9" TabStop="True" TextAlign="Right" TitleAlign="Left" TitleLocation="Left" UIFieldID="SysVersion" UIViewID="ViewSearch" Visible="False" Width="100" X="806" Y="10">
+      <Events />
+      <RelationControls />
+      <PrecisionBind Name="PrecisionBind3" />
+      <RoundRuleBind Name="RoundRuleBind3" />
+      <ValueOfRoundByValueBind Name="ValueOfRoundByValueBind3" />
+      <CurrencyType Name="CurrencyType3" />
+    </NumberControl>
+  </Card>
+  <Events />
+</View>
