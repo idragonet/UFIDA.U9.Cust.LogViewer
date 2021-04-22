@@ -10,6 +10,7 @@ U9日志搜索下载
 
 `<trace iisTrace="false" sqlTrace="false" perfAlert="true" perfTrace="true" TraceFlags="ItemNameAndSPECS,PerfMonitor,DisplaySMMenu" />`
 
+------------
 
 ![image](https://raw.githubusercontent.com/idragonet/UFIDA.U9.Cust.LogViewer/main/QQ%E6%B5%8F%E8%A7%88%E5%99%A8%E6%88%AA%E5%9B%BE20210422100322Menu.png)
 
