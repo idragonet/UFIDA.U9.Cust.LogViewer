@@ -7,6 +7,7 @@ U9日志搜索下载
 - 部署方式：补丁部署
 - 菜单位置：系统管理-系统日志-系统日志查看
 - 菜单授权注意事项：U9默认菜单权限看不到“系统管理”模块，需要编辑文件：Portal\bin\environment.xml
+[系统管理设置菜单权限](http://u9hub.yonyou.com/a/p/01ead0d3b69a1a40bcb7cbf4d7b236a9 "系统管理设置菜单权限")
 
 `<trace iisTrace="false" sqlTrace="false" perfAlert="true" perfTrace="true" TraceFlags="ItemNameAndSPECS,PerfMonitor,DisplaySMMenu" />`
 
